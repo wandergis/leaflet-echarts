@@ -5,6 +5,7 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
 > 根据百度地图echarts的扩展改写，在事件联动这个地方以及echarts的容器与地图容器在拖动和缩放中的适应上耗费了很长时间，为了兼容echarts的map其他类型的数据又下了不少功夫。现在可以算是一个稍微完美的版本了。
 
 # [在线访问(Demo)](http://wandergis.github.io/leaflet-echarts)
+# [Online Demo(Not in china?Visit this!)](http://wandergis.github.io/leaflet-echarts/index-en.html) 
 
 # 使用方法（Usage）
 
