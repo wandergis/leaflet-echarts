@@ -20,7 +20,7 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
     	var option={};//这里跟百度echarts的map的option一样,the option is same as echarts map
     	overlay.setOption(option);
    	 ```
- 5. If you don't konw how to use this plugin,hava a look at `/examples/index.html`,如果你不会用，看看examples目录下的`index.html` 
+5. If you don't konw how to use this plugin,hava a look at `/examples/index.html`,如果你不会用，看看examples目录下的`index.html` 
 # 截图示例
 
 ![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/73352372.jpg)
