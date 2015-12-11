@@ -24,7 +24,8 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
 
 # 截图示例
 
-![](![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/7342113.jpg))
+![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/72535064.jpg)
+
 
 ![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/73352372.jpg)
 
