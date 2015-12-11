@@ -30,7 +30,6 @@ This is a beta version,so it would have some bugs,visit it by **chrome** will be
 ![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/72535064.jpg)
 
 
-![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/73352372.jpg)
 
 # 参考
 
