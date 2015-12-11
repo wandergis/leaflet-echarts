@@ -21,7 +21,10 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
     	overlay.setOption(option);
    	 ```
 5. If you don't konw how to use this plugin,hava a look at `/examples/index.html`,如果你不会用，看看examples目录下的`index.html` 
+
 # 截图示例
+
+![](![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/7342113.jpg))
 
 ![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/73352372.jpg)
 
