@@ -8,10 +8,10 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
 
 # 使用方法（Usage）
 
-1. confirm you have import leaflet first, 引入leaflet的js和css库自然不用说 
-2. import eaflet-echarts.js ,可以通过npm安装，输入`npm install leaflet-echarts` 即可
-3. import `echarts.source.js` under directory `lib` 引入lib目录下的`echarts.source.js`文件
-4. as you can use this plugin like this,按照下面的方法使用
+1. Confirm you have import `leaflet` first, 引入leaflet的js和css库自然不用说 
+2. Import `eaflet-echarts.js` ,可以通过npm安装，输入`npm install leaflet-echarts` 即可
+3. Import `echarts.source.js` under directory `lib` 引入lib目录下的`echarts.source.js`文件
+4. As you can use this plugin like this,按照下面的方法使用
 
 	```
 		var overlay = new L.echartsLayer(map, echarts);
@@ -20,7 +20,7 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
     	var option={};//这里跟百度echarts的map的option一样,the option is same as echarts map
     	overlay.setOption(option);
    	 ```
-   	 
+ 5. If you don't konw how to use this plugin,hava a look at `/examples/index.html`,如果你不会用，看看examples目录下的`index.html` 
 # 截图示例
 
 ![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/73352372.jpg)
