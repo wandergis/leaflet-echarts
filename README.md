@@ -27,7 +27,7 @@ This is a beta version,so it would have some bugs,visit it by **chrome** will be
 
 # 截图示例
 
-![](http://7xp11v.com1.z0.glb.clouddn.com/15-12-11/72535064.jpg)
+![](https://raw.githubusercontent.com/wandergis/leaflet-echarts/master/examples/demo.gif)
 
 
 
