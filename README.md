@@ -2,9 +2,9 @@
 A plugin for leaflet to load echarts map and make BigData Visualization.
 ## 基于leaflet 扩展echarts，使ECharts的地图可以加到leaflet上
 
-> 根据百度地图echarts的扩展改写，在事件联动这个地方以及echarts的容器与地图容器在拖动和缩放中的适应上耗费了很长时间，为了兼容echarts的map其他类型的数据又下了不少功夫。现在可以算是一个稍微完美的版本了。好的效果请在谷歌浏览器访问，偶尔拖拽会飘，建议拖拽的时候在没有echarts渲染数据的区域拖拽。
+> 根据百度地图echarts的扩展改写，在事件联动这个地方以及echarts的容器与地图容器在拖动和缩放中的适应上耗费了很长时间，为了兼容echarts的map其他类型的数据又下了不少功夫。现在可以算是一个稍微完美的版本了。好的效果请在谷歌浏览器访问。~~偶尔拖拽会飘，建议拖拽的时候在没有echarts渲染数据的区域拖拽。~~ 貌似修复了！
 
-This is a beta version,so it would have some bugs,visit it by **chrome** will be better,and when you want to drag the map,drag on zhe basemap without echarts data.
+> This is a beta version,so it would have some bugs,visit it by **chrome** will be better.	~~When you want to drag the map,drag on zhe basemap without echarts data.~~	It seems that i have solved this problem.
 
 # [在线访问(Demo)](http://wandergis.github.io/leaflet-echarts)
 # [Online Demo(Not in china?Visit this!)](http://wandergis.github.io/leaflet-echarts/index-en.html) 
