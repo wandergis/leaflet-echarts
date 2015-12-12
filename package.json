@@ -1,6 +1,6 @@
 {
   "name": "leaflet-echarts",
-  "version": "0.1.12",
+  "version": "0.1.2",
   "description": "A plugin for leaflet to load echarts map and make BigData Visualization.",
   "main": "src/leaflet-echarts.js",
   "directories": {
