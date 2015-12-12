@@ -237,11 +237,12 @@
       self._bindEvent = function() {
         self._map.on('move', _moveHandler('moving'));
         self._map.on('moveend', _moveHandler('moveend'));
-        self._map.on('zoomstart', _zoomatartChangeHandler);
+        //self._map.on('zoomstart', _zoomatartChangeHandler);//去掉zoomstart事件
         self._map.on('zoomend', _zoomChangeHandler);
         self._ec.getZrender().on('dragstart', _dragZrenderHandler(true));
         self._ec.getZrender().on('dragend', _dragZrenderHandler(false));
         self._ec.getZrender().on('mousewheel', function(e) {
+          self._ec.clear(); //在mousewheel的时候清楚echarts内容
           self._lastMousePos = self._map.mouseEventToContainerPoint(e.event);
           var delta = L.DomEvent.getWheelDelta(e.event);
           var map = self._map,
@@ -277,9 +278,9 @@
         self.setOption(self._option);
       }
 
-      function _zoomatartChangeHandler() {
-        self._ec.clear();
-      }
+      // function _zoomatartChangeHandler() {
+      //   self._ec.clear();
+      // }
 
       /**
        * 地图移动、如拖拽触发事件
