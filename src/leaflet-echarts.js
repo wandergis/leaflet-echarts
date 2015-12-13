@@ -241,6 +241,12 @@
         self._map.on('zoomend', _zoomChangeHandler);
         self._ec.getZrender().on('dragstart', _dragZrenderHandler(true));
         self._ec.getZrender().on('dragend', _dragZrenderHandler(false));
+        self._ec.getZrender().on('mouseup', function() {
+          self._ec.clear();
+        });
+        self._ec.getZrender().on('mousedown', function() {
+          self._ec.clear();
+        });
         self._ec.getZrender().on('mousewheel', function(e) {
           self._ec.clear(); //在mousewheel的时候清楚echarts内容
           self._lastMousePos = self._map.mouseEventToContainerPoint(e.event);
