@@ -250,7 +250,7 @@
           //修改了echarts源码解决了这个问题
         });
         self._ec.getZrender().on('mousewheel', function(e) {
-          self._ec.clear(); //在mousewheel的时候清楚echarts内容
+          self._ec.clear(); //在mousewheel的时候清除echarts内容
           self._lastMousePos = self._map.mouseEventToContainerPoint(e.event);
           var delta = L.DomEvent.getWheelDelta(e.event);
           var map = self._map,
@@ -270,9 +270,6 @@
             map.setZoom(zoom + delta);
           } else {
             map.setZoomAround(self._lastMousePos, zoom + delta);
-          }
-          return function() {
-
           }
         });
       };
