@@ -242,10 +242,12 @@
         self._ec.getZrender().on('dragstart', _dragZrenderHandler(true));
         self._ec.getZrender().on('dragend', _dragZrenderHandler(false));
         self._ec.getZrender().on('mouseup', function() {
-          self.setOption(self._option);
+          // self.setOption(self._option);
+          //修改了echarts源码解决了这个问题
         });
         self._ec.getZrender().on('mousedown', function() {
-          self._ec.clear();
+          // self._ec.clear();
+          //修改了echarts源码解决了这个问题
         });
         self._ec.getZrender().on('mousewheel', function(e) {
           self._ec.clear(); //在mousewheel的时候清楚echarts内容
