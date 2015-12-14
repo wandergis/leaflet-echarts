@@ -29,7 +29,7 @@ A plugin for leaflet to load echarts map and make BigData Visualization.
 
 ![](https://raw.githubusercontent.com/wandergis/leaflet-echarts/master/examples/demo.gif)
 
-
+![](https://raw.githubusercontent.com/wandergis/leaflet-echarts/master/examples/demo2.gif)
 
 # 参考
 
