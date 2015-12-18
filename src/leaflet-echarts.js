@@ -25,7 +25,6 @@
     _lastMousePos: null,
     initialize: function(map, ec) {
       this._map = map;
-      map.scrollWheelZoom.disable();
       var size = map.getSize();
       var div = this._echartsContainer = document.createElement('div');
       div.style.position = 'absolute';
