@@ -236,7 +236,9 @@
       self._bindEvent = function() {
         self._map.on('move', _moveHandler('moving'));
         self._map.on('moveend', _moveHandler('moveend'));
-        //self._map.on('zoomstart', _zoomatartChangeHandler);//去掉zoomstart事件
+        self._map.on('zoomstart', function() {
+          self._ec.clear();
+        }); //去掉zoomstart事件
         self._map.on('zoomend', _zoomChangeHandler);
         self._ec.getZrender().on('dragstart', _dragZrenderHandler(true));
         self._ec.getZrender().on('dragend', _dragZrenderHandler(false));
