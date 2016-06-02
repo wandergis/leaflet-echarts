@@ -17,6 +17,7 @@
     _echartsContainer: null,
     _map: null,
     _ec: null,
+    _el: null,
     _option: null,
     _geoCoord: [],
     _mapOffset: [0, 0],
@@ -32,8 +33,21 @@
       div.style.width = size.x + 'px';
       div.style.top = 0;
       div.style.left = 0;
+      div.style.zIndex = 1;
+      this._el = div;
+      
       map.getPanes().overlayPane.appendChild(div);
       this._init(map, ec);
+    },
+    onAdd: function(map){
+      this._map=map;
+      map.getPanes().overlayPane.appendChild(this._el);
+      this._init(map, ec);
+    },
+    onRemove: function(map){
+      if(this._el){
+        map.getPanes().overlayPane.removeChild(this._el);
+      }
     },
     _init: function(map, ec) {
       var self = this;
